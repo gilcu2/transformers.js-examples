@@ -7,10 +7,12 @@ const PER_DEVICE_CONFIG = {
       decoder_model_merged: "q4",
     },
     device: "webgpu",
+    return_language: true
   },
   wasm: {
     dtype: "q8",
     device: "wasm",
+    return_language: true
   },
 };
 
