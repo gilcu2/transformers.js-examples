@@ -18,6 +18,13 @@ try {
 }
 
 // Configure the model
+// const model_config = new HFModelConfig_v1({
+//   model_path: "onnx-community/OuteTTS-0.2-500M",
+//   language: "en", // Supported languages in v0.2: en, zh, ja, ko
+//   dtype: fp16_supported ? "q4f16" : "q4", // Supported dtypes: fp32, fp16, q8, q4, q4f16
+//   device: "webgpu", // Supported devices: webgpu, wasm
+// });
+
 const model_config = new HFModelConfig_v1({
   model_path: "onnx-community/OuteTTS-0.2-500M",
   language: "en", // Supported languages in v0.2: en, zh, ja, ko
